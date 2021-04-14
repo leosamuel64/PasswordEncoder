@@ -1,0 +1,44 @@
+html, body {
+    margin: 1;
+    padding: 0;
+    }
+   
+   body {
+      background-color: rgb(231, 231, 231);
+    font-family: Agency FB, sans-serif;
+    font-size: 100%;
+     padding-left: 10px;
+       opacity:0;
+       -moz-animation: anim 1s linear forwards 0s;
+       -webkit-animation: anim 1s linear forwards 0s;
+       -o-animation: anim 1s linear forwards 0s;
+       -ms-animation: anim 1s linear forwards 50s;
+       animation: anim 1s linear forwards 0s;
+   }
+   @-moz-keyframes anim {
+      0%  {opacity:0;}
+      100% {opacity:1;}
+   }
+   @-webkit-keyframes anim {
+      0%  {opacity:0;}
+      100% {opacity:1;}
+   }
+   @-o-keyframes anim {
+      0%  {opacity:0;}
+      100% {opacity:1;}
+   }
+   @-ms-keyframes anim {
+      0%  {opacity:0;}
+      100% {opacity:1;}
+   }
+   @keyframes anim {
+      0%  {opacity:0;}
+      100% {opacity:1;}
+   }
+   
+   h1 {
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+    }
+  
