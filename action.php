@@ -21,6 +21,7 @@
 <h1>
 
 
+
 Your password for <?php echo htmlspecialchars($_POST['service']); ?> is :<br>
 <br>
 <!-- <?php $res = system('./pwd '.$_POST['password'].' '.$_POST['service']) ?> -->
