@@ -18,9 +18,20 @@
 <body>
 
 
+<?php
+if (isset($_GET['service'])) 
+{
+    $res=htmlspecialchars($_GET["service"]);
+}
+else
+{
+    $res="";
+}
+?>
+
 <h1>
 <form action="action.php" method="post">
- <p>Service : <input type="text" name="service" value=<?php echo htmlspecialchars($_GET["service"]);?> /></p>
+ <p>Service : <input type="text" name="service" value=<?php echo $res;?> /></p>
  <p>Password : <input type="password" name="password" /></p>
  <p><input type="submit" value="Encode"></p>
 </form>
